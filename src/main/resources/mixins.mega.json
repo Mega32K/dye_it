@@ -4,24 +4,9 @@
   "package": "com.mega.dyeit.mixin",
   "compatibilityLevel": "JAVA_17",
   "refmap": "mixins.mega.refmap.json",
-  "mixins": [
-    "EnchantmentHelperMixin",
-    "EnchantmentMixin",
-    "EndCrystalMixin",
-    "EntityMixin",
-    "ExplosionMixin",
-    "InventoryMixin",
-    "LevelMixin",
-    "LivingEntityMixin",
-    "ModelResourceLocationMixin",
-    "ResourceLocationMixin",
-    "ServerLevelMixin",
-    "StructureManagerMixin"
-  ],
   "client": [
-    "ClientLevelMixin",
-    "EntityRenderDispatcherMixin",
-    "ParticleManagerMixin"
+    "ItemColorsAccesser",
+    "MinecraftMixin"
   ],
   "injectors": {
     "defaultRequire": 1
